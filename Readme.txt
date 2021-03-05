@@ -1,7 +1,10 @@
+
 This project is a solution to tackle various issues in elderly care with main focus on Fall prevention and Activity tracking
 It will use a PIR sensor + Raspberry pi + speaker + sound card + a microphone
 It will also have an interface utilizing a screen,
 Nurses will have an app integrated with notification system, which will receive notifications from this device
+There will be several prompts regarding medication and activity - in order for a daily log to be created so there's a smoother transition between nurse shifts.
+
 
 For this demo, due to physical limitations, motion detection via webcam was used - 
 
