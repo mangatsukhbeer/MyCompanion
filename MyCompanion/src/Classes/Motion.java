@@ -40,12 +40,12 @@ public class Motion implements WebcamMotionListener{ //WebMotionListener detects
         WebcamPanel panel = new WebcamPanel(webcam);
         panel.setMirrored(false);
         panel.setImageSizeDisplayed(true);
-        panel.setFPSDisplayed(true);
-        panel.setDisplayDebugInfo(true);
-        JFrame frame = new JFrame("Motion Detector");
+        panel.setFPSDisplayed(true); // frames displayed
+        panel.setDisplayDebugInfo(true); 
+        JFrame frame = new JFrame("Motion Detector"); // new frame
         frame.add(panel);
         frame.pack();
-        frame.setVisible(true);
+        frame.setVisible(true); // frame window
         WebcamMotionDetector detector = new WebcamMotionDetector(webcam);
         detector.setInterval(100); // interval between motions - 100ms
         detector.setInertia(30); // Inertia of the motion
